@@ -1,0 +1,112 @@
+Users\Training\Desktop\Courses\Jenkins\Course 6\0605 Maven Project\maven-test
+   │
+   ├[.git]
+   │   │
+   │   ├[hooks]
+   │   │   │
+   │   │   ├applypatch-msg
+   │   │   ├commit-msg
+   │   │   ├post-update
+   │   │   ├pre-applypatch
+   │   │   ├pre-commit
+   │   │   ├pre-push
+   │   │   ├pre-rebase
+   │   │   ├pre-receive
+   │   │   ├prepare-commit-msg
+   │   │   └update
+   │   ├[info]
+   │   │   │
+   │   │   └exclude
+   │   ├[logs]
+   │   │   │
+   │   │   ├[refs]
+   │   │   │   │
+   │   │   │   └[heads]
+   │   │   │       │
+   │   │   │       └master
+   │   │   └HEAD
+   │   ├[objects]
+   │   │   │
+   │   │   ├[00]
+   │   │   │   │
+   │   │   │   └470475a21277dc11718dc84c8a5e7ed35b1823
+   │   │   ├[02]
+   │   │   │   │
+   │   │   │   └2c99c6028b07ca346ddf1fd16a1b3bff16b910
+   │   │   ├[03]
+   │   │   │   │
+   │   │   │   └a926a1337df6b19fe09bb131f56afd70dbe2e9
+   │   │   ├[13]
+   │   │   │   │
+   │   │   │   └b3428acd87c3f94042e61eed221c15ce682bfa
+   │   │   ├[18]
+   │   │   │   │
+   │   │   │   └0f9b39c860ad8ecd42fd51496c1296b1a2d7d5
+   │   │   ├[1e]
+   │   │   │   │
+   │   │   │   └b71987baaf29f973087de74e345784ac93f179
+   │   │   ├[3a]
+   │   │   │   │
+   │   │   │   └99ef768a9d83d79e36fa06d3709ad861b67831
+   │   │   ├[4d]
+   │   │   │   │
+   │   │   │   └af998f373781d926dfd9a14c2ef6118691ceb0
+   │   │   ├[8d]
+   │   │   │   │
+   │   │   │   └ee4f361b692620ce478177a5e54ce7b8ae8705
+   │   │   ├[94]
+   │   │   │   │
+   │   │   │   └894ccaba39f65c2662bcd629331b20916ee25f
+   │   │   ├[b9]
+   │   │   │   │
+   │   │   │   └7343c5161712cbd54488d6c7d1e6691fa93885
+   │   │   ├[ba]
+   │   │   │   │
+   │   │   │   └783d1ae10450d9e764d941aed21b25770c1a64
+   │   │   ├[bc]
+   │   │   │   │
+   │   │   │   └68d0c29b685dc4ede3983408ab395a91d7a9a7
+   │   │   ├[ef]
+   │   │   │   │
+   │   │   │   └a3ef957d47cabcb58118b145d0dc008bf4cb8e
+   │   │   ├[f8]
+   │   │   │   │
+   │   │   │   └97a7f1cb2389f85fe6381425d29f0a9866fb65
+   │   │   ├[info]
+   │   │   └[pack]
+   │   ├[refs]
+   │   │   │
+   │   │   ├[heads]
+   │   │   │   │
+   │   │   │   └master
+   │   │   └[tags]
+   │   ├COMMIT_EDITMSG
+   │   ├config
+   │   ├description
+   │   ├HEAD
+   │   └index
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.jdt.core
+   │   └org.eclipse.m2e.core
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[jenkins]
+   │   │   │               │
+   │   │   │               └HelloWorldMaven
+   │   │   └[resources]
+   │   └[test]
+   │       │
+   │       ├[java]
+   │       └[resources]
+   ├
+   ├
+   └pom
