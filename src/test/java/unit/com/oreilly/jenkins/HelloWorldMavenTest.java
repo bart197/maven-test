@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class HelloWorldMavenTest {
     @Test
-    public void test() {
+    public void validateMessage() {
 	PrintStream savedOut = System.out;
 	try {
 	    ByteArrayOutputStream baos = new ByteArrayOutputStream();
