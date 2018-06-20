@@ -8,7 +8,7 @@ public class HelloWorldMaven {
 	System.out.println("Hello from a Maven project.");
     }
 
-    private String bug() {
+    public String bug() {
 	String s = null;
 	return s.toUpperCase();
     }
