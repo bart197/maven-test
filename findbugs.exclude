@@ -1,0 +1,8 @@
+<FindBugsFilter>
+    <Match>
+        <Class name="unit.com.oreilly.jenkins.HelloWorldMavenTest" />
+        <Not>
+            <Bug code="DM_DEFAULT_ENCODING" />
+        </Not>
+    </Match>
+</FindBugsFilter>

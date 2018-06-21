@@ -1,0 +1,55 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: "jacoco"
+apply plugin: 'findbugs'
+//apply plugin: 'checkstyle'
+
+group = 'com.oreilly.jenkins'
+version = '0.0.1-SNAPSHOT'
+
+description = """maven-test"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+repositories {
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version:'4.12'
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination file("${buildDir}/reports/jacoco/")
+    }
+}
+
+test {
+    jacoco {
+        append = false
+        destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+        classDumpDir = file("$buildDir/jacoco/classpathdumps")
+    }
+}
+
+check {
+    dependsOn jacocoTestReport
+}
+
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled false
+        html.enabled true
+        ignoreFailures true
+        excludeFilter = file("findbugs.exclude")
+//        html.stylesheet resources.text.fromFile('config/xsl/findbugs-custom.xsl')
+    }
+}
+
