@@ -1,3 +1,9 @@
 target/
 .gradle/
 build/
+*.swp
+.idea/
+*.iml
+.classpath
+.project
+.settings/
